@@ -1,0 +1,53 @@
+:root{
+
+}
+
+*{
+    font-style: italic;
+    color: rgb(16, 48, 76);
+}
+
+img{
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+h1{
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+body{
+    background-image: url(../images/end-of-evangelion.png);
+    background-size: 1200px 575px;
+    background-position: 85px 60px;
+    background-repeat: no-repeat;
+    
+}
+
+.header div ul li{
+    /* display: flex;
+    flex-direction: row; */
+    /* flex-wrap: wrap */
+    /* float: right; */
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: medium;
+    /* margin-top: -75px; */
+    /* margin-left: 600px; */
+    /* margin-right: ; */
+    /* margin-left: 665px; */
+    /* padding-left: 500px; */
+}
+
+div.about-me,div.work,div.contact{
+    margin: 300px 100px 300px 100px;
+}
+
+div.contact ul li{
+    display: inline;
+    padding-left: 20px;
+}
